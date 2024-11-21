@@ -19,7 +19,7 @@ Ensure you have Python installed on your system.
 
 To begin, install the required Swarm library:
 
-`pip install openai_swarm`
+```pip install openai_swarm```
 
 ### Configuration
 
