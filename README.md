@@ -13,7 +13,7 @@ The `observations.txt` file provides a detailed breakdown of:
 
 ### Prerequisites
 
-Ensure you have Python installed on your system.
+Ensure you have OpenAI's Swarm installed on your system.
 
 ### Installation
 
