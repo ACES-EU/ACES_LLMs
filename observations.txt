@@ -3,7 +3,7 @@
 =================================  
 
 In swarm -> core.py, adjust the client:
-  - client = OpenAI(base_url="http://192.168.4.26:1235/v1", api_key="random")
+  - client = OpenAI(base_url="http://sim-server-ip:1235/v1", api_key="random")
   - client = OpenAI(base_url="http://127.0.0.1/v1", api_key="random")
   - client = OpenAI()
 
