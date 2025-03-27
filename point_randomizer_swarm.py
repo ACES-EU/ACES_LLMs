@@ -9,8 +9,8 @@ import random
 
 class RandomMovingPoints:
     def __init__(self, config_file="config.json"):
-
-        base_path = "C:\\Users\\Atta\\Desktop\\workspace\\ACES\\swarm_ai\\ACES"
+        # Load configuration from the JSON file - adjust the path as needed
+        base_path = "C:\\Users\\Atta\\Desktop\\workspace\\ACES\\swarm_ai\\ACES_LLMs\\ACES_LLMs"
         # base_path = "C:\\Users\\attah\\OneDrive\\Desktop\\workspace\\ACES\\swarm_openai\\ACES"
         config_path = os.path.join(base_path, "config", config_file)
 
@@ -80,7 +80,7 @@ class RandomMovingPoints:
         """Update and save coordinates back to the config file."""
         self.config["coordinates"] = coordinates  # Update the 'coordinates' key in the config
 
-        base_path = "C:\\Users\\Atta\\Desktop\\workspace\\ACES\\swarm_ai\\ACES"
+        base_path = "C:\\Users\\Atta\\Desktop\\workspace\\ACES\\swarm_ai\\ACES_LLMs\\ACES_LLMs"
         # base_path = "C:\\Users\\attah\\OneDrive\\Desktop\\workspace\\ACES\\swarm_openai\\ACES"
         config_path = os.path.join(base_path, "config", "config.json")
 
@@ -91,7 +91,7 @@ class RandomMovingPoints:
         """Update and save velocities back to the config file."""
         self.config["velocities"] = velocities
 
-        base_path = "C:\\Users\\Atta\\Desktop\\workspace\\ACES\\swarm_ai\\ACES"
+        base_path = "C:\\Users\\Atta\\Desktop\\workspace\\ACES\\swarm_ai\\ACES_LLMs\\ACES_LLMs"
         # base_path = "C:\\Users\\attah\\OneDrive\\Desktop\\workspace\\ACES\\swarm_openai\\ACES"
         config_path = os.path.join(base_path, "config", "config.json")
 
